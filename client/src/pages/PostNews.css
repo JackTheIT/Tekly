@@ -1,0 +1,37 @@
+/* PostNews.css */
+.post-news {
+    padding: 2rem;
+  }
+  
+  .post-news h2 {
+    font-size: 2.5rem;
+  }
+  
+  .post-news form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .post-news input,
+  .post-news textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .post-news button {
+    padding: 1rem;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-news button:hover {
+    background-color: #0097a7;
+  }
+  

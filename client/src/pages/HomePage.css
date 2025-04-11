@@ -1,0 +1,90 @@
+/* HomePage.css */
+.home-page {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 3rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .news {
+    margin-top: 2rem;
+  }
+  
+  .news h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .news-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .news-item {
+    background: #f5f5f5;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  .news-item h3 {
+    font-size: 1.4rem;
+  }
+  
+  .news-item a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .news-item a:hover {
+    color: #00bcd4;
+  }
+  
+  .newsletter {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .newsletter form {
+    display: inline-flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .newsletter input {
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .newsletter button {
+    padding: 0.7rem 1.5rem;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: #0097a7;
+  }
+  
